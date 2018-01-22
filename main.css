@@ -1,0 +1,19 @@
+body {
+    font-family: Open Sans Condensed,Arial,Helvetica,sans-serif;
+    padding: 20px;
+}
+
+.input, #output {
+    width: 600px;
+    height: 200px;
+}
+
+p.quote {
+    margin-top:2px;
+    margin-bottom: 30px;
+    color: #aaaaaa;
+}
+
+h1 {
+    margin: 0;
+}
