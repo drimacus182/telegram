@@ -1,7 +1,11 @@
 $(document).ready(function() {
-
-    var template = "[<<link_text>>](https://t.me/iv?url=<<link_href>>&rhash=5a55dde839c9a5)";
-        
+    
+    //markdown
+    //var template = "[<<link_text>>](https://t.me/iv?url=<<link_href>>&rhash=5a55dde839c9a5)";
+    
+    // html        
+    var template = '<a href="https://t.me/iv?url=<<link_href>>&rhash=5a55dde839c9a5"><<link_text>></a>';  
+    
     $('#input_link_href').on('input change keyup', onChange)
     $('#input_link_text').on('input change keyup', onChange)
 
